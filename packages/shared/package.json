@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "main": "src",
-  "scripts": {},
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
