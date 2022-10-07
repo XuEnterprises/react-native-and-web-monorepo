@@ -30,4 +30,5 @@ module.exports = {
     blockList: exclusionList(monorepoMetroTools.blockList),
     extraNodeModules: monorepoMetroTools.extraNodeModules,
   },
+  projectRoot: __dirname,
 };

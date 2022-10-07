@@ -3,20 +3,17 @@
   "workspaces": {
     "packages": [
       "packages/*"
-    ],
-    "nohoist": [
-      "**/react",
-      "**/react-dom",
-      "**/react-native",
-      "**/react-native/**"
     ]
   },
   "scripts": {
     "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock",
     "android:start": "yarn workspace @my-app/my-mobile-app android",
     "web:start": "yarn workspace @my-app/my-web-app start"
-  }
+  },
+  "resolutions": {
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.1"
+  },
+  "packageManager": "yarn@3.2.4"
 }
-
-
-
